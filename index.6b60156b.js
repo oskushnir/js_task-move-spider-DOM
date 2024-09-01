@@ -1,0 +1,2 @@
+var t=document.querySelector("div");t.addEventListener("click",function(e){var i=t.querySelector("img"),c=e.clientX,n=e.clientY,l=t.getBoundingClientRect(),o=t.clientTop,d=i.clientWidth,r=i.clientHeight,g=c-l.left-o-r/2,h=n-l.top-o-d/2;g<0&&(g=0),h<0&&(h=0),g+d>t.clientWidth&&(g=t.clientWidth-d),h+r>t.clientHeight&&(h=t.clientHeight-r),i.style.left="".concat(g,"px"),i.style.top="".concat(h,"px")});
+//# sourceMappingURL=index.6b60156b.js.map
